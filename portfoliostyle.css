@@ -1,0 +1,259 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: #7795ab;
+}
+.nav-link{
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color:rgb(18, 19, 19);
+  background-color:rgb(133, 234, 234) ;
+}
+.navbar-brand{
+  font-size: 1.25rem;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button{
+  color:black;
+  background-color: #7795ab;
+}
+.main{
+  background: rgb(190, 210, 232);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.main h3{
+  font-size: 3.1rem;
+  font-weight: 350;
+}
+.main .bt1{
+  height: 34px;
+  width: 95px;
+  background-color: #7795ab;
+  color:black;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main .bt1:hover{
+  background-color: rgb(133, 234, 234);
+  transition: 0.5s;
+}
+.main .bt2{
+  height: 34px;
+  width: 95px;
+  background-color: transparent;
+  color: #7795ab;
+  outline: none;
+  border: 1px #7795ab;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main .bt2:hover{
+  background-color: #7795ab;
+  transition: 0.5s;
+  color: black;
+}
+.about {
+  background-color: #f8f9fa; 
+  text-align: center; 
+}
+
+.about .container {
+  max-width: 1200px; 
+}
+
+.about .col-lg-5 img {
+  border-radius: 10px;
+}
+
+.about .col-lg-7 {
+  padding-top: 50px; 
+}
+.about h1 {
+  color: #333; 
+}
+.about p {
+  color: #666; 
+  font-size: 18px; 
+}
+
+@media (max-width: 768px) {
+  .about .col-lg-7 {
+    padding-top: 20px;
+  }
+}
+.services {
+  background-color: #f8f9fa; 
+  padding: 50px 0; 
+  text-align: center; 
+}
+
+.services .container {
+  max-width: 1200px; 
+}
+
+.services h1 {
+  color: #333;
+}
+.services .card {
+  margin-bottom: 30px; 
+  border: none; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.services .card-title {
+  color: #333; 
+}
+
+.services .card-text {
+  color: #666; 
+}
+
+@media (max-width: 768px) {
+  .services .card {
+    width: 100%;
+  }
+}
+.contact {
+  background-color: #f8f9fa; 
+  padding: 50px 0; 
+  text-align: center; 
+}
+
+.contact .container {
+  max-width: 1200px; 
+}
+
+.contact h1 {
+  color: #333; 
+}
+
+.contact h5 {
+  color: #333; 
+}
+
+.contact p {
+  color: #666; 
+}
+
+.contact form {
+  margin-top: 30px; 
+}
+
+.contact input[type="text"],
+.contact textarea {
+  width: 60%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+.contact .bt3{
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+}
+.bt3{
+  background: white;
+  color: black;
+  border:1px solid black;
+}
+
+@media (max-width: 768px) {
+  .contact input[type="text"],
+  .contact textarea {
+    width: 100%;
+  }
+}
+/* Dark theme styles */
+.dark-theme {
+  background-color: rgb(40, 37, 37);
+  color:white;
+}
+.dark-theme .navbar {
+  background-color: rgb(37, 36, 36);
+}
+.dark-theme .nav-link active{
+  color: white;
+}
+.dark-theme .nav-link {
+  color: white;
+}
+.dark-theme .navbar-brand{
+  color: white;
+}
+.dark-theme .main{
+  background:black;
+}
+.dark-theme .main .bt1{
+  color:black;
+  background-color:darkgoldenrod;
+}
+.dark-theme .main .bt1:hover{
+  background-color: burlywood;
+  transition: 0.5s;
+}
+.dark-theme .main .bt2{
+  color:black;
+  background-color:darkgoldenrod;
+}
+.dark-theme .main .bt2:hover{
+  background-color: burlywood;
+  transition: 0.5s;
+}
+.dark-theme .about{
+  background-color: black;
+}
+.dark-theme .about h1{
+  color: white;
+}
+.dark-theme .about p{
+  color: burlywood;
+}
+.dark-theme .services{
+  background-color: black;
+}
+.dark-theme .services h1{
+  color: white;
+}
+.dark-theme .services .card{
+  box-shadow: #666;
+  background-color: #666;
+}
+.dark-theme .services .card-title{
+  color: white;
+}
+.dark-theme .services .card-text{
+  color: white;
+}
+.dark-theme .contact{
+  background-color: black;
+}
+.dark-theme .contact h1{
+  color: white;
+}
+.dark-theme .contact h5{
+  color: darkgoldenrod;
+}
+.dark-theme .contact p{
+  color:burlywood;
+}
